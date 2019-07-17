@@ -4,6 +4,7 @@ import {BrowserRouter as Router,
         Link } from 'react-router-dom'
 
 import Home from './Home'
+import NewSeries from './NewSeries'
 
 //Functional Stateless Component
 const About = () => <section className="intro-section"><h1>Sobre</h1></section>
@@ -37,8 +38,9 @@ class App extends React.Component {
               </div>
             </nav>
           </div>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route  exact path='/new' component={NewSeries} />
         </Router>
       )
     }
