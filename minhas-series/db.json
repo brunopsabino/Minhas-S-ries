@@ -38,6 +38,13 @@
       "genre": "Ação",
       "comments": "Muito bom!",
       "id": 5
+    },
+    {
+      "name": "Lucifer",
+      "status": "watching",
+      "genre": "Comédia",
+      "comments": "Interessante",
+      "id": 6
     }
   ],
   "genres": [

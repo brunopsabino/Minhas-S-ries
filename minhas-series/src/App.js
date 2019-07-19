@@ -4,6 +4,7 @@ import {BrowserRouter as Router,
         Link } from 'react-router-dom'
 
 import Home from './Home'
+import Series from './Series'
 import NewSeries from './NewSeries'
 
 //Functional Stateless Component
@@ -39,8 +40,9 @@ class App extends React.Component {
             </nav>
           </div>
           <Route exact path='/' component={Home} />
+          <Route exact path='/series/:genre' component={Series}/>
           <Route exact path='/about' component={About} />
-          <Route  exact path='/new' component={NewSeries} />
+          <Route exact path='/new' component={NewSeries} />
         </Router>
       )
     }
