@@ -9,13 +9,9 @@
     },
     {
       "id": 2,
-      "name": "Friends",
-      "status": "watching",
+      "name": "Friends ",
+      "status": "toWatch",
       "genre": "Comédia",
-      "current": {
-        "episode": "01",
-        "season": "09"
-      },
       "comments": "Bom para descontrair"
     },
     {
@@ -31,20 +27,6 @@
       "status": "toWatch",
       "genre": "Drama",
       "comments": "Galera fala bem"
-    },
-    {
-      "name": "Altered Carbon",
-      "status": "watched",
-      "genre": "Ação",
-      "comments": "Muito bom!",
-      "id": 5
-    },
-    {
-      "name": "Lucifer",
-      "status": "watching",
-      "genre": "Comédia",
-      "comments": "Interessante",
-      "id": 6
     }
   ],
   "genres": [
